@@ -8,7 +8,7 @@ export const Saludo_=(props)=>{
 
     return(
         <div class= {props.clase}>
-            <img src={"../imagenes/hombre.png"}></img>
+            <img src={require(`../imagenes/${props.ubicacion}`)}/>
             <h2>Esto es Una Practica con {props.nombre}</h2>
             <p>Nombre: {props.nombre} </p>
             <p>Apellido: {props.apellido}</p>
@@ -26,7 +26,7 @@ export const Boton=()=>{
 
   return (
     <div>
-      <button onClick={evento_boton}>
+      <button class="boton" onClick={evento_boton}>
         De Click Aqui
       </button>
       

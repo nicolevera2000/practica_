@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+   gap: 20px; /* Espacio entre tarjetas */
+  padding: 20px;
+   
+  
 }
 
 .App-logo {
@@ -27,6 +33,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

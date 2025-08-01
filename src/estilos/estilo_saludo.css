@@ -1,13 +1,63 @@
 .nicole{
 
     background-color: yellow;
+    display: flex;          /* Activa Flexbox */
+    align-items: center;    /* Centra verticalmente */
+    gap: 20px;              /* Espacio entre imagen y texto */
+    width: 250px;            /* Ocupa todo el ancho disponible */
+    max-width: 600px;       /* Ancho máximo opcional */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    font-size: 12.5px;
+    
+    
 }
 
 .hercules{
       background-color: #ff0000;
+     display: flex;          /* Activa Flexbox */
+    align-items: center;    /* Centra verticalmente */
+    gap: 20px;              /* Espacio entre imagen y texto */
+    width: 250px ;           /* Ocupa todo el ancho disponible */
+    max-width: 600px;       /* Ancho máximo opcional */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    font-size: 12.5px;
+     
     
 }
 
 .alb{
      background-color: #2200ff;
+     display: flex;          /* Activa Flexbox */
+    align-items: center;    /* Centra verticalmente */
+    gap: 20px;              /* Espacio entre imagen y texto */
+    width: 250px;            /* Ocupa todo el ancho disponible */
+    max-width: 600px;       /* Ancho máximo opcional */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    font-size: 12.5px;
+     
+}
+
+.boton{
+   position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+img{
+   width: 150px;           /* Ancho fijo para la imagen */
+            height: 150px;           /* Alto fijo (opcional) */
+            object-fit: cover;      /* Ajusta la imagen sin deformar */
+            border-radius: 8px;      /* Bordes redondeados */
 }
