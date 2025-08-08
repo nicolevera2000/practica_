@@ -4,8 +4,6 @@ import  "../estilos/estilo_saludo.css"
 
 export const Saludo_=(props)=>{
 
-   
-
     return(
         <div class= {props.clase}>
             <img src={require(`../imagenes/${props.ubicacion}`)}/>
